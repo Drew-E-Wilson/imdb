@@ -1,0 +1,17 @@
+@import "./home";
+@import "./faqs";
+@import "./contact";
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+}
+
+nav {
+    background: rgb(135, 135, 200);
+}
